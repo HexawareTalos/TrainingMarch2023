@@ -1,0 +1,38 @@
+Traditional Automation
+
+1. Identify Automation scenarios
+2. manual testcases - > automation test scripts
+      |->excel, CSV, test management tools like JIRA, ALM, Qtest
+3. write testcases in BDD cucumber feature file format
+
+Cucumber BDD plugin in IDE
+1. feature file with file extension of <filename>.feature
+
+Feature: .........feature name......
+ Description of feature
+
+ scenario :  --> your testcase
+
+    Given - precondition
+    When - all user actions
+    Then - verification./ validation
+    And - conjunction word to link more than one when/ then statement
+    But - negative positives
+
+
+    1. feature file creation - DOne
+    2. Create the runner file - cucumber configuration - Done
+            |-> Options
+                    |-> feature location*
+                    |-> Glue*
+                    |-> tags
+                    |-> plugin
+    3. Step Definition - Done
+    4. PageFactory - Done
+    5. Hooks - Done
+    6. Logs
+
+
+
+
+

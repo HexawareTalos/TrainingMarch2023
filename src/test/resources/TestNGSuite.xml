@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1"  name="OHRM"  parallel="tests">
+
+    <test name="cucumber test with TestNG">
+        <classes>
+            <class name="automation.training.Runner"/>
+        </classes>
+    </test>
+
+
+</suite>
