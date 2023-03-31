@@ -6,6 +6,11 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.testng.annotations.AfterClass;
+
+import java.io.File;
+
+
 public class Hooks {
     /**
      * Before and After
@@ -35,6 +40,16 @@ public class Hooks {
 //    public void screenShot(Scenario scenario){
 //        byte[] screenshot = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES);
 //        scenario.attach(screenshot,"image/png",scenario.getName()+"_"+scenario.getLine());
+//    }
+
+//    @AfterClass
+//    public static void writeExtentReport() {
+//        Reporter.loadXMLConfig(new File(getReportConfigPath()));
+//    }
+//    public static String getReportConfigPath(){
+//        String reportConfigPath = "src/test/resources/extent-config.xml";
+//        if(reportConfigPath!= null) return reportConfigPath;
+//        else throw new RuntimeException("Report Config Path not specified in the Configuration.properties file for the Key:reportConfigPath");
 //    }
 
 

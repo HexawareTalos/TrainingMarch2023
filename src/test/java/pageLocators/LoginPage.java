@@ -30,7 +30,7 @@ public class LoginPage {
 
     public void login(){
         username.sendKeys("Admin");
-        password.sendKeys("admin123");
+//        password.sendKeys("admin123");
         login.click();
     }
 
